@@ -4,7 +4,7 @@
 int main()
 {
     //Declaracion de variables
-    int num =0;
+    int num =1;
     char caract='A';
     float num2 =3.14;
     double num3 = 2.2;
@@ -19,8 +19,8 @@ int main()
     char nombre ='n';
 
     //Demostramos la varialbe
-
-    printf("Los tantos como enteros sirven de la siguiente forma\n");
+    printf("<---------------Bienvenido------------->\n");
+    printf("los enteros sirven de la siguiente forma \n");
 
     printf("Ejemplo para utilizar enteros o int\n");
     printf("Ingrese dos numeros\n");
@@ -29,7 +29,8 @@ int main()
 
     ej3 = ej1 + ej2;
     printf("la suma de los siguientes numero es :%d",ej3);
-
+    
+    printf("ejemplo de letra\n");
     printf("\nIngrese una letra\n");
     scanf("%s",&nombre);
     printf("Letra:%c\n",nombre);
@@ -41,10 +42,10 @@ int main()
     printf("char: %c\n", caract);
     printf("int: %d\n", num);
 
-    /*printf("float: %f\n", floatVar);
-    printf("double: %lf\n", doubleVar);
+    printf("float: %f\n", num2);
+    printf("double: %lf\n", num3);
 
-    printf("char array: %s\n", charArray);
-    printf("string array: %s\n", stringArray);*/
+    printf("char array: %s\n", carcatArray);
+    printf("string array: %s\n", caractArray2);
 
 }
